@@ -1,0 +1,46 @@
+*{
+    background-color:rgb(169, 214, 233);
+}
+.container{
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+.container,p,.row,.label,.input,ul,li{
+    background-color:rgb(243, 243, 243) ;
+}
+p{
+    position: relative;
+    /* left: 10px; */
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    margin :20px;
+}
+.label{
+    width: 190px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    text-align: end;
+    
+}
+input,select,textarea{
+    padding: 5px;
+    background-color:rgb(243, 243, 243) ;
+    position: relative;
+    left: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    margin-right: 20px;
+}
+label input[type = radio]
+{
+    position: relative;
+    right: 30px;
+    
+}
